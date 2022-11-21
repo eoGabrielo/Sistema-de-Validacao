@@ -8,8 +8,10 @@ const botao = document.querySelector("#botao");
 const botaoApagar = document.querySelector("#botaoApagar");
 
 function apagarInfo() {
-    mostrarUsuario.innerHTML = " ";
-    mostrarSenha.innerHTML = " ";
+    mostrarUsuario.innerHTML = "";
+    mostrarSenha.innerHTML = "";
+    usuario.value = "";
+    senha.value = "";
 }
 
 function mostrarResultados() {
